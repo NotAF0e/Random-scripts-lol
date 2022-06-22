@@ -14,3 +14,5 @@ file.close()
 os.system("pip install -r requirements.txt --upgrade")
 os.remove("requirements.txt")
 os.system('cmd /k "echo Finished updating all packages!"')
+
+#test
