@@ -8,7 +8,6 @@ with open('requirements.txt', 'r') as file:
 
 with open('requirements.txt', 'w') as file: file.write(data)
 
-
 file.close()
 
 os.system("pip install -r requirements.txt --upgrade")
